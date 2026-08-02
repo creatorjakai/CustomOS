@@ -1,0 +1,37 @@
+CustomOS
+
+Filesystem:
+/(diskname)
+  /boot
+    bootloader.asm
+    kernel.asm
+  /bin
+    init.asm
+    shell.asm
+  /drivers
+    keyboard.c
+    mouse.c
+    disk.c
+    display.c
+    touchpad.c
+    touchscreen.c
+    usb.c
+    pci.c
+    speaker.c
+    microphone.c
+    bluetooth.c
+    wifi.c
+    ethernet.c
+    camera.c
+    battery.c
+    powermanagement.c
+  /syslib
+  /etc
+    set.conf
+    desktop.conf
+    /sys
+      /desktop
+      /apps
+      /users
+        /user
+    
